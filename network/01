@@ -1,0 +1,1 @@
+/sbin/ifconfig -a | grep net |tr -s ' ' | cut -d' ' -f3
