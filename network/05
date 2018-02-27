@@ -1,1 +1,1 @@
-nslookup slash16.org | grep Address | tr '\t' ' ' | tr -s ' ' | cut -d ' ' -f2
+dig +short slash16.org

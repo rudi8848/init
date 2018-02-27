@@ -1,1 +1,1 @@
-/sbin/ifconfig -a | grep ether | tr -s ' ' |cut -d' ' -f3
+ifconfig -a | grep 'ether ' | tr -s ' ' | cut -d ' ' -f2
