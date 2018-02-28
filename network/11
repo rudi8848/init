@@ -1,0 +1,2 @@
+10.0.0.0/8 is local network
+the first IP in the list is gateway that links us with external nets
