@@ -1,0 +1,2 @@
+hostnamectl set-hostname 42
+or just change /etc/hostname
