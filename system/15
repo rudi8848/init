@@ -1,0 +1,10 @@
+jobs
+	look at number
+fg <number>
+
+
+or:
+
+ps -aux | grep <command>
+	look at PID
+(sudo) kill <PID>
