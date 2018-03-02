@@ -1,0 +1,2 @@
+#!/bin/bash
+du $1 * | sort -n | tr -s ' ' | cut -d ' ' -f2

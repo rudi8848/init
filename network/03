@@ -1,1 +1,1 @@
-ifconfig -a | grep 'ether ' | tr -s ' ' | cut -d ' ' -f2
+networksetup  -listallhardwareports | grep -A2 'Wi-Fi' | grep Address: | cut -d ' ' -f3
