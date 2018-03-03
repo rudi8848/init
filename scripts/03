@@ -1,2 +1,1 @@
-#!/bin/bash
-du $1 * | sort -n | tr -s ' ' | cut -d ' ' -f2
+du $1 | sort -n | tr '\t' ' ' | cut -d ' ' -f2
