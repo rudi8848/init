@@ -11,3 +11,4 @@ fi
 md5sum $file > $sumfile
 
 # crontab -e 0 0 * * * ~/init/scripts/04
+# sudo apt-get install mailutils for mail
