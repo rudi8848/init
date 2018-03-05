@@ -1,1 +1,1 @@
-du -ch /var
+sudo du -h /var

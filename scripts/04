@@ -1,12 +1,12 @@
 #!/bin/bash
 
-file=~/etc/crontab
+file=/etc/crontab
 sumfile=~/sum
 outp=`md5sum $file`
 outp2=`cat $sumfile`
-if [ "$outp" == "$outp2" ];
+if [ "$outp"=="$outp2" ];
 	then echo "file was not modified" > /dev/null
-else echo "FILE WAS MODIFIED" | email -s "crontab log" root
+else echo "FILE WAS MODIFIED" | mail -s "crontab log" root
 fi
 md5sum $file > $sumfile
 
