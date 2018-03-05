@@ -1,1 +1,1 @@
-ifconfig | grep 'inet ' | tr -s ' ' | cut -d ' ' -f2
+ifconfig | grep -A5 en0 | grep 'inet ' | tr -s ' ' | cut -d ' ' -f2
